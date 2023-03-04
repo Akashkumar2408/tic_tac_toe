@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/tictactoe.css">
+
+    <title>tic tac toe</title>
+</head>
+
+<body>
+    <nav>
+        <li>
+            Tic Tac Toe
+        </li>
+    </nav>
+    <div class="main_container">
+        <div class="container">
+            <div class="box bt bl" onclick="turn1()" id="b1"> </div>
+            <div class="box bt" onclick="turn2()" id="b2"></div>
+            <div class="box bt br" onclick="turn3()" id="b3"> </div>
+            <div class="box bl" onclick="turn4()" id="b4"> </div>
+            <div class="box" onclick="turn5()" id="b5"> </div>
+            <div class="box br" onclick="turn6()" id="b6"> </div>
+            <div class="box bl bb" onclick="turn7()" id="b7"> </div>
+            <div class="box bb" onclick="turn8()" id="b8"> </div>
+            <div class="box bb br" onclick="turn9()" id="b9"> </div>
+        </div>
+    </div>
+    <div>
+        <button onclick="X()"style="background-color: black; color: white; border-color: gray;border-radius: 5px; padding: 6px; font-size: x-large;">X</button>
+        <button onclick="O()"style="background-color: black; color: white; border-color: gray;border-radius: 5px; padding: 6px; font-size: x-large;">0</button>
+        <button onclick="reset()" style="background-color: black; color: white; border-color: gray;border-radius: 5px; padding: 6px; font-size: x-large;"> reset</button>
+    </div>
+
+    <script src="./js/tic.js"> </script>
+</body>
+
+</html>     
